@@ -27,7 +27,7 @@
           <img src="./src/imgs/Logo.svg" alt="logo" />
         </div>
 
-        <div class="flex flex-col lg:flex-row gap-3 lg:items-center">
+        <div class=" hidden lg:flex flex-col lg:flex-row gap-3 lg:items-center ">
           <p class="font-bold text-[18px] text-gray-800f">Deliver to:</p>
           <div class="flex gap-2 items-center">
             <img src="./src/imgs/map-marker-alt.svg" alt="map" />
@@ -41,14 +41,13 @@
           </div>
         </div>
 
-        <div class="flex gap-4 items-center">
+        <div class="flex gap-4 items-center justify-between lg:justify-start">
           <div class="flex gap-1.5 items-center">
             <img
               src="./src/imgs/Search.svg"
               alt="search"
               class="max-lg:h-4 max-lg:w-4"
             />
-
             <input
               type="text"
               placeholder="Search foods... "
@@ -84,11 +83,11 @@
           <div class="w-full max-w-[856px]">
             <div>
               <h1
-                class="text-amber-50 font-extrabold text-[88px] leading-[100%]"
+                class= "  text-amber-50 font-extrabold text-[50px] lg:text-[88px] leading-[100%]"
               >
                 Are You Starving?
               </h1>
-              <p class="text-[22px] text-[#504F4F] leading-[120%]">
+              <p class=" text-[10px] lg:text-[22px] text-[#504F4F] leading-[120%]">
                 wthin a few clicks, find a meals that are accessible near you
               </p>
             </div>
@@ -142,7 +141,7 @@
               </div>
 
               <!-- Address Input + Button -->
-              <div class="flex gap-3">
+              <div class="flex flex-col lg:flex-row items-end  gap-3">
                 <div class="w-full relative">
                   <img
                     src="./src/imgs/search-map.svg"
@@ -156,7 +155,7 @@
                   />
                 </div>
                 <button
-                  class="cursor-pointer flex gap-2 w-[200px] rounded-xl bg-[#F65900] hover:bg-[#f63500] to-90% px-6 py-3 font-semibold text-white shadow transition"
+                  class="cursor-pointer flex gap-2 max-w-fit  lg:w-[200px] rounded-xl bg-[#F65900] hover:bg-[#f63500] to-90% px-6 py-3 font-semibold text-white shadow transition"
                 >
                   <img
                     src="/src/imgs/search-btn-find-food.svg"
