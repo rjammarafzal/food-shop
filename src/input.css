@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@theme {
+  --color-gray-800f: #424242;
+  --color-site-yellow: #ff8a00;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.site-container {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
