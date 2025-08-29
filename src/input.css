@@ -18,3 +18,6 @@ body {
   padding-left: 12px;
   padding-right: 12px;
 }
+.shadows{
+        box-shadow: 10px 10px 35px -14px rgba(0, 0, 0, 1);
+      }
